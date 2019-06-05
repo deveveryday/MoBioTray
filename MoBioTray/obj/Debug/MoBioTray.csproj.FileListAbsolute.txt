@@ -1,0 +1,17 @@
+C:\Users\artur.justino\source\repos\MoBioTray\MoBioTray\bin\Debug\MoBioTray.exe.config
+C:\Users\artur.justino\source\repos\MoBioTray\MoBioTray\bin\Debug\MoBioTray.exe
+C:\Users\artur.justino\source\repos\MoBioTray\MoBioTray\bin\Debug\MoBioTray.pdb
+C:\Users\artur.justino\source\repos\MoBioTray\MoBioTray\obj\Debug\MoBioTray.csprojAssemblyReference.cache
+C:\Users\artur.justino\source\repos\MoBioTray\MoBioTray\obj\Debug\MoBioTray.Form1.resources
+C:\Users\artur.justino\source\repos\MoBioTray\MoBioTray\obj\Debug\MoBioTray.Properties.Resources.resources
+C:\Users\artur.justino\source\repos\MoBioTray\MoBioTray\obj\Debug\MoBioTray.csproj.GenerateResource.cache
+C:\Users\artur.justino\source\repos\MoBioTray\MoBioTray\obj\Debug\MoBioTray.csproj.CoreCompileInputs.cache
+C:\Users\artur.justino\source\repos\MoBioTray\MoBioTray\obj\Debug\MoBioTray.exe
+C:\Users\artur.justino\source\repos\MoBioTray\MoBioTray\obj\Debug\MoBioTray.pdb
+C:\Users\artur.justino\source\repos\MoBioTray\MoBioTray\bin\Debug\microscope-icon.png
+C:\Users\artur.justino\source\repos\MoBioTray\MoBioTray\bin\Debug\Microscope.ico
+C:\Users\artur.justino\source\repos\MoBioTray\MoBioTray\bin\Debug\Microscope-red.ico
+C:\Users\artur.justino\source\repos\MoBioTray\MoBioTray\bin\Debug\MoBioTray.exe.manifest
+C:\Users\artur.justino\source\repos\MoBioTray\MoBioTray\bin\Debug\MoBioTray.application
+C:\Users\artur.justino\source\repos\MoBioTray\MoBioTray\obj\Debug\MoBioTray.exe.manifest
+C:\Users\artur.justino\source\repos\MoBioTray\MoBioTray\obj\Debug\MoBioTray.application

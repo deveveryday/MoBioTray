@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -29,7 +30,7 @@ namespace MoBioTray
             icon.MouseClick += Icon_MouseClick;
             icon.BalloonTipClicked += Icon_BalloonTipClicked;
             icon.Text = "Eu sou biomédica top!";
-
+            
 
             timer1.Enabled = true;
             timer1.Interval = 3600000;
@@ -50,6 +51,8 @@ namespace MoBioTray
                 icon.BalloonTipTitle = "O futuro é agora";
                 icon.BalloonTipIcon = ToolTipIcon.Error;
                 icon.ShowBalloonTip(1000);
+
+                AnimeIcon(100, 20);
             }
             else//left or middle click
             {
@@ -57,6 +60,8 @@ namespace MoBioTray
                 icon.BalloonTipTitle = "Biomedicina";
                 icon.BalloonTipIcon = ToolTipIcon.Info;
                 icon.ShowBalloonTip(1000);
+
+                AnimeIcon(300, 20);
             }
         }
 
@@ -82,6 +87,8 @@ namespace MoBioTray
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            AnimeIcon(500, 20);
+
             if (DateTime.Now.Hour > 6 && DateTime.Now.Hour < 7)
             {
                 icon.BalloonTipText = "Bom dia";
@@ -181,6 +188,33 @@ namespace MoBioTray
         {
             this.Hide();
             Process.Start("https://cfbm.gov.br/");
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_ClientSizeChanged(object sender, EventArgs e)
+        {
+            if(WindowState == FormWindowState.Minimized)
+            {
+                this.Hide();
+            }
+        }
+
+        private void AnimeIcon(int milliseconds = 1000, int repetitions = 10)
+        {
+            for (int i = 0; i < repetitions; i++)
+            {
+                Thread.Sleep(milliseconds);
+                icon.Icon = NextIcon();
+            }
+        }
+
+        private System.Drawing.Icon NextIcon(string icoName = "Microscope", int ini = 1, int end = 11)
+        {
+            return new System.Drawing.Icon($"./{icoName}{new Random().Next(ini, end)}.ico");
         }
     }
 }

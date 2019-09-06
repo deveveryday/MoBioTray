@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="MoBioTray.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="MoBioTray.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="MoBioTray" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MoBioTray.exe" size="100824">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MoBioTray.exe" size="101848">
       <assemblyIdentity name="MoBioTray" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>YgXQCsFRyN2vweiaGVDHtQuIPSoVNHd4fwmZWD2gy+c=</dsig:DigestValue>
+        <dsig:DigestValue>/LVxhbSc7Kpi984doMC7Cruhp7CL7Bj12vqr1TREyQk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -60,6 +60,114 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>EgJZ3EzufbiHuPERyDPjHCzKgCY1wIR0bmBDQ7pCcu8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microscope1.ico" size="9062">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ykxXjiZTxQXaXwxxyrz6kZWySj3lGGIxMtLSLWCOQFo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microscope10.ico" size="9062">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1xl7TqWPxuuHlPqKiMCQ4YXZnEiOB8kOg8pkgjTrqls=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microscope11.ico" size="9062">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YOBWM1B7KALcXSR3RxlajoN2UOUryYzX+pNPFVszgeo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microscope12.ico" size="9062">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>F1O2c9KEQCJFLBYYH0eUgI11DjthMfymegTUrX/Juvc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microscope2.ico" size="9062">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mQCYA6DHusuQ/sOuo2VYb+nSrFXUGy3tTDE089Fec/0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microscope3.ico" size="9062">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LtkYi3AR4sMHHCcGa6/SzJ1BIVCUi1jqNlFLK9L6vi8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microscope4.ico" size="9062">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LoVHzr+7LbPwtVcvDPu8nyP/ROJ022rlTRdj4UboFs0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microscope5.ico" size="9062">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uidpw+D6ZAs1fB7f0TiGuxhW4Ox0ngvOo/LgmDBOw40=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microscope6.ico" size="9062">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>w/cycu1XkF6H9FLi+Nw30rTwR0De8O1zmp6QRe4RTB4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microscope7.ico" size="9062">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Bb+TYjHJEbjYayks6fTm905dH543pgeEmgje7/GO/vE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microscope8.ico" size="9062">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xOQPPA+KkxYzNY3bnkyE1u/nYc0w9q6BwizajerMjSE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microscope9.ico" size="9062">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>s44jmZyzNFIe18Bi2SSZLQ8TXxsWlZ8yZ0Kq9ALI8lY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="microscope-icon.png" size="36695">

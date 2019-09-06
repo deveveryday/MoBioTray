@@ -62,6 +62,8 @@
             this.Text = "Clínica Anjos";
             this.TransparencyKey = System.Drawing.Color.Silver;
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.Load += new System.EventHandler(this.Form1_Load_1);
+            this.ClientSizeChanged += new System.EventHandler(this.Form1_ClientSizeChanged);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
